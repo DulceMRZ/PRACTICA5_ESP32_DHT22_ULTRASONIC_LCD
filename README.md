@@ -132,7 +132,7 @@ lcd.setCursor(0, 0);
 
 2. Instalar la libreria de **DHT sensor library for ESPx** como se muestra en la siguente imagen.
 
-![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/ESP32%20CON%20DHT22%20Y%20LCD%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2010_06_2023%2007_51_57%20a.%20m..png?raw=true)
+![](https://github.com/DulceMRZ/PRACTICA5_ESP32_DHT22_ULTRASONIC_LCD/blob/main/PRACTICA5%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2010_06_2023%2012_28_25%20p.%20m..png?raw=true)
 
 ## Paso 3
 
@@ -151,19 +151,31 @@ b) Conexión de pin 2 (GND)
 
 c) Conexión pin 3 (pin 15) 
 
-
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama..png?raw=true)
 
-d) Conexión de LCD 
+3.2 Hacer la conexion de **LCD** con la **ESP32** como se muestra en la siguentes imagenes: 
+
+a) Conexión de LCD 
 
 
 ![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/Captura3.PNG?raw=truee)
 
 
 
-e) Conexión de LCD más ESP32 y DHT22
+b) Conexión de LCD más ESP32 y DHT22
 
 ![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/Captura1.PNG?raw=true)
+
+3.3 Hacer la conexion de **HC-SR04 Ultrasonic distance sensor** con la **ESP32** como se muestra en la siguentes imagenes:
+
+a) Observar la conexión: 
+
+![](https://github.com/DulceMRZ/PRACTICA5_ESP32_DHT22_ULTRASONIC_LCD/blob/main/Captura.PNG?raw=true)
+
+
+
+
+
 
 
 
@@ -172,22 +184,16 @@ e) Conexión de LCD más ESP32 y DHT22
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
 3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT22** 
-
+4. Colocar la temperatura y humedad dando *doble click* al sensor **HC-SR04 Ultrasonic distance sensor** 
 ## 6. Resultados
 
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
 
-![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/ESP32%20CON%20DHT22%20Y%20LCD%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2010_06_2023%2007_32_34%20a.%20m..png?raw=true)
+![](https://github.com/DulceMRZ/PRACTICA5_ESP32_DHT22_ULTRASONIC_LCD/blob/main/PRACTICA5%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2010_06_2023%2012_42_41%20p.%20m..png?raw=true)
+
+![](https://github.com/DulceMRZ/PRACTICA5_ESP32_DHT22_ULTRASONIC_LCD/blob/main/PRACTICA5%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2010_06_2023%2012_42_39%20p.%20m.%20(1).png?raw=true)
 
  
- **Comenatrio adicional**: Puedes programar la información de la siguiente manera: 
- 
-![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/Captura6.PNG?raw=true)
-
-
-![](https://github.com/DulceMRZ/PRACTICA_2_DHT22_CON_LCD/blob/main/Captura4.PNG?raw=true)
-
-#### Nota: Tu puedes cambiar la información a imprimir
 
 
 # Créditos
